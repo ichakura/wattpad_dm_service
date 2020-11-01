@@ -11,7 +11,8 @@ BUG FIXES TO ADD:
 - [ ] (MAIN) Messages you send will be buried in requests, and as such will take too long to actually send
 - [ ] Cannot currently select from all available DM's.
 - [ ] Creating a user login file at first launch. Currently, you must do the following:
-        ```python
+        
+        
         
           import pickle
           import selenium.webdriver 

@@ -16,6 +16,7 @@ BUG FIXES TO ADD:
 - [ ] Creating a user login file at first launch 
          * Currently, you must do the following:
         ```python
+        
           import pickle
           import selenium.webdriver 
 
@@ -23,4 +24,5 @@ BUG FIXES TO ADD:
           driver.get("http://www.wattpad.com/")
           #YOU MUST LOG IN WITH YOUR CREDNETIALS, THEN RUN:
           pickle.dump( driver.get_cookies() , open("login.pkl","wb"))
- 
+        ```
+   

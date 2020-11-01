@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+  <title>Better Wattpasdfad</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+      body {
+        font-family: 'Raleway', sans-serif;
+		color: white
+      }
+	</style>
+  
+</head>
+<body>
+
+<div id="messages"></div>
+
+<script>
+  var myVar = setInterval(epic, 500);
+
+function epic(){
+  $( "#messages" ).load( "/messages");
+};
+
+</script>
+
+<div class="form__group field">
+  <input id='nandaomaewa' type="input" placeholder="Name" onkeydown="search(this)" class="form__field"  name="nandaomaewa" />
+  <label for="name" class="form__label">Enter Message</label>
+
+
+</div>
+<!-- partial -->
+  <script type="text/javascript"
+         src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+	
